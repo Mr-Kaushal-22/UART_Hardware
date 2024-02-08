@@ -1,0 +1,30 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 07, 2024 17:39:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\top.v:13)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\top.v:13)
+[EFX-0010 VERI-ERROR] module 'top' is ignored due to previous errors (VERI-1072) (C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\top.v:42)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 07, 2024 17:39:59
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\top.v:13)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\top.v:13)
+[EFX-0010 VERI-ERROR] module 'top' is ignored due to previous errors (VERI-1072) (C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\top.v:41)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 07, 2024 17:40:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 07, 2024 17:41:22
+///////////////////////////////////
+

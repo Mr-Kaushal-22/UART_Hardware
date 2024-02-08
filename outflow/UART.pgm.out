@@ -1,0 +1,24 @@
+
+Efinix FPGA Bitstream Generator.
+Version: 2023.2.307 
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+Compiled: Dec 15 2023.
+
+Using source file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/work_pnr/UART.lbf"
+Generating HEX programming file for device "T120F324", family "Trion"
+Using periphery source file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.lpf"
+Generating bit file: "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.bit"
+HEX Generation Options Summary:
+	Listing options specified to bitstream generation:
+	spi_low_power_mode                       = on
+	oscillator_clock_divider                 = DIV8
+	io_weak_pullup                           = on
+	release_tri_then_reset                   = on
+Finished generating "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.hex"
+Efinity Bitstream Generator took 40.0699 seconds.
+	Efinity Bitstream Generator took 9.90625 seconds (approximately) in total CPU time.
+Efinity Bitstream Generator virtual memory usage: begin = 2.456 MB, end = 7.856 MB, delta = 5.4 MB
+	Efinity Bitstream Generator peak virtual memory usage = 227.92 MB
+Efinity Bitstream Generator resident set memory usage: begin = 7.532 MB, end = 15.432 MB, delta = 7.9 MB
+	Efinity Bitstream Generator peak resident set memory usage = 202.572 MB

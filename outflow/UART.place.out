@@ -1,0 +1,168 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0035214 seconds.
+	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 14.664 MB, end = 14.664 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 57.372 MB
+VDB Netlist Checker resident set memory usage: begin = 25.792 MB, end = 25.972 MB, delta = 0.18 MB
+	VDB Netlist Checker peak resident set memory usage = 68.016 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.interface.csv'.
+Successfully processed interface constraints file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.vdb".
+Netlist pre-processing took 0.0185919 seconds.
+	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 14.664 MB, end = 14.664 MB, delta = 0 MB
+	Netlist pre-processing peak virtual memory usage = 57.372 MB
+Netlist pre-processing resident set memory usage: begin = 25.496 MB, end = 26.304 MB, delta = 0.808 MB
+	Netlist pre-processing peak resident set memory usage = 68.016 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/work_pnr\UART.net_proto" took 0.001 seconds
+Creating IO constraints file 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/work_pnr\UART.io_place'
+Packing took 0.0036637 seconds.
+	Packing took 0 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 30.108 MB, end = 30.108 MB, delta = 0 MB
+	Packing peak virtual memory usage = 57.372 MB
+Packing resident set memory usage: begin = 42.116 MB, end = 42.352 MB, delta = 0.236 MB
+	Packing peak resident set memory usage = 68.016 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/work_pnr\UART.net_proto
+Read proto netlist for file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/work_pnr\UART.net_proto" took 0 seconds
+Setup net and block data structure took 0.005 seconds
+Packed netlist loading took 0.0322982 seconds.
+	Packed netlist loading took 0 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 30.108 MB, end = 30.772 MB, delta = 0.664 MB
+	Packed netlist loading peak virtual memory usage = 69.964 MB
+Packed netlist loading resident set memory usage: begin = 42.36 MB, end = 43.232 MB, delta = 0.872 MB
+	Packed netlist loading peak resident set memory usage = 82.28 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+SDC file 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/timing_constraint.sdc' parsed successfully.
+1 clocks (including virtual clocks), 0 inputs and 0 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.interface.csv'.
+Successfully processed interface constraints file "C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.interface.csv".
+Writing IO placement constraints to 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow\UART.interface.io'.
+
+Reading placement constraints from 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow\UART.interface.io'.
+
+Reading placement constraints from 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/work_pnr\UART.io_place'.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow\UART_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1        1005           97628        82.6%
+          2        1082           97550        82.6%
+          3        1275           97794        82.6%
+          4        1188           97911        82.6%
+          5        1189           98045        82.6%
+          6         907           97647        82.6%
+          7         851           97821        84.2%
+          8         746           97219        86.3%
+          9         639           97268        88.9%
+         10         624           96141        91.4%
+         11         611           95637        92.7%
+         12         594           96379        94.7%
+         13         534           95510        95.9%
+         14         524           95510        97.9%
+         15         533           95511        99.1%
+         16         526           95490        99.3%
+         17         532           95483        99.3%
+         18         524           95483       100.1%
+         19         524           95490       100.1%
+         20         529           95490       100.1%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0         524            4398        30.0
+          1         409            6643        30.0
+          2         749            7256        30.0
+          3         537            6593        30.0
+          4         487            6266        30.0
+          5         524            5890        30.0
+          6         524            6173        30.0
+          7         400            6378        30.0
+          8         399            6587        30.0
+          9         391            6777        30.0
+         10         425            6964        30.0
+         11         327            6328        30.0
+         12         317            6621        30.0
+         13         293            6075        30.0
+         14         285            6241        30.0
+         15         273            5489        30.0
+         16         293            5419        30.0
+         17         257            5858        30.0
+         18         278            5837        30.0
+         19         207            5828        30.0
+         20         218            5796        30.0
+         21         209            4998        30.0
+         22         233            5132        30.0
+         23         200            5075        30.0
+         24         226            5102        30.0
+         25         206            5261        30.0
+         26         231            5128        30.0
+         27         211            5461        30.0
+         28         208            4752        30.0
+         29         223            4894        29.4
+         30         211            5454        29.3
+         31         200            5052        26.9
+         32         193            4891        24.6
+Generate C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow\UART_after_qp.qdelay
+Placement successful: 104 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.0028236 at 0,0
+Congestion-weighted HPWL per net: 1.37466
+
+Reading placement constraints from 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.qplace'.
+Finished Realigning Types (28 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.place'
+Placement took 5.62933 seconds.
+	Placement took 2.51562 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 38.252 MB, end = 56.172 MB, delta = 17.92 MB
+	Placement peak virtual memory usage = 406.228 MB
+Placement resident set memory usage: begin = 51.164 MB, end = 63.04 MB, delta = 11.876 MB
+	Placement peak resident set memory usage = 410.36 MB
+***** Ending stage placement *****
+

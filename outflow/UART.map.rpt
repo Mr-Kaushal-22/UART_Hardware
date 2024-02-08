@@ -1,0 +1,101 @@
+Efinity Synthesis report for project UART
+Version: 2023.2.307
+Generated at: Feb 07, 2024 17:41:22
+Copyright (C) 2013 - 2023  All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : top
+
+### ### File List (begin) ### ### ###
+C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\uart_tx.v
+C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\uart_rx.v
+C:\Users\kaush\Desktop\Vicharak\Onboarding\UART\top.v
+### ### File List (end) ### ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 16
+Total number of FFs with enable signals: 41
+CE signal <ceg_net48>, number of controlling flip flops: 8
+CE signal <ceg_net97>, number of controlling flip flops: 1
+CE signal <top_uart_rx/n451>, number of controlling flip flops: 1
+CE signal <ceg_net85>, number of controlling flip flops: 3
+CE signal <top_uart_rx/n434>, number of controlling flip flops: 1
+CE signal <top_uart_rx/n436>, number of controlling flip flops: 1
+CE signal <top_uart_rx/n438>, number of controlling flip flops: 1
+CE signal <top_uart_rx/n440>, number of controlling flip flops: 1
+CE signal <top_uart_rx/n442>, number of controlling flip flops: 1
+CE signal <top_uart_rx/n444>, number of controlling flip flops: 1
+CE signal <top_uart_rx/n446>, number of controlling flip flops: 1
+CE signal <top_uart_tx/r_SM_Main[2]>, number of controlling flip flops: 8
+CE signal <ceg_net99>, number of controlling flip flops: 1
+CE signal <ceg_net95>, number of controlling flip flops: 3
+CE signal <ceg_net93>, number of controlling flip flops: 1
+CE signal <top_uart_tx/n426>, number of controlling flip flops: 8
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 4
+Total number of FFs with set/reset signals: 6
+SR signal <top_uart_rx/n432>, number of controlling flip flops: 1
+SR signal <top_uart_rx/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <top_uart_tx/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <top_uart_tx/n408>, number of controlling flip flops: 1
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                         FFs        ADDs        LUTs      RAMs DSP/MULTs
+----------------------         ---        ----        ----      ---- ---------
+top:top                      49(0)        0(0)       81(0)      0(0)      0(0)
+ +top_uart_rx:uart_rx       25(25)        0(0)      46(46)      0(0)      0(0)
+ +top_uart_tx:uart_tx       24(24)        0(0)      35(35)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock     Flip-Flops   Memory Ports    Multipliers
+ -----     ----------   ------------    -----------
+ Clock             49              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : UART
+project-xml : C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/UART.xml
+root : top
+I,include : C:/Users/kaush/Desktop/Vicharak/Onboarding/UART
+output-dir : C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow
+work-dir : C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/work_syn
+write-efx-verilog : C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.map.v
+binary-db : C:/Users/kaush/Desktop/Vicharak/Onboarding/UART/outflow/UART.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	2
+OUTPUT PORTS    : 	3
+
+EFX_LUT4        : 	81
+   1-2  Inputs  : 	15
+   3    Inputs  : 	23
+   4    Inputs  : 	43
+EFX_FF          : 	49
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 7s
+Elapsed synthesis time : 7s

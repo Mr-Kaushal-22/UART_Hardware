@@ -1,0 +1,24 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Date: Wed Feb 07 17:41:56 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: UART
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 2 / 1076 (0.19%)
+Outputs: 3 / 1566 (0.19%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 104 / 112128 (0.09%)
+	LE: LUTs/Adders: 83 / 112128 (0.07%)
+	LE: Registers: 49 / 107520 (0.05%)
+Memory Blocks: 0 / 1056 (0.00%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 5 seconds
